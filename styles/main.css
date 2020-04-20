@@ -1,0 +1,130 @@
+* {
+    margin:0;
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.site-banner {
+    background: url('../images/banner.jpg');
+    height: 60vh;
+    margin-top: 0px;
+    padding:23px;
+}
+a {text-decoration: none; }
+.navbar {
+    list-style-type: none;
+    background: #000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 9px;
+    display: block;
+    height:6vh;
+}
+li.nav-item {
+    display: inline;
+    padding:9px;
+}
+li.nav-item:first-child{
+    float: left;
+    font-weight: 600;
+}
+li.nav-item a {
+    color:orangered;
+    font-size: 1rem;
+}
+li.nav-item {float:right; }
+.banner-wrapper{
+    width: 80vw; 
+    margin:auto;
+    display: grid;
+    grid-template-columns: 50vw 30vw;
+}
+
+.intro-text{
+    color:#f2f2f2;
+
+}
+.intro-text h1 {
+    font-size: 1.7rem;
+}
+.intro-text p {
+    line-height: 20px;
+}
+.intro-text button {
+    outline: none;
+    color: orchid;
+    background: #f2f2f2;
+    border-radius: 9px;
+    margin-top: 9px;
+    height:38px;
+    padding:9px;
+    border:none;
+    width:190px;
+}
+.intro-video video {
+    height: 200px;
+    width:450px;
+    padding-top: 12px;
+    margin-top: 23px;
+}
+.employees-container {
+    width:80vw;
+    margin:auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.card{
+    flex-basis: 40%;
+    box-shadow: 2px 3px 9px 0px;
+    margin:4px;
+}
+.card-title {
+    border-top: 1px solid rgb(90, 86, 86);
+}
+.card-content {
+    padding: 5px;
+}
+
+.card-image img {
+    width:inherit;
+    height:280px;
+    margin-bottom: 0px;
+}
+.card-footer {
+    border-top: 1px solid rgb(90, 86, 86);
+    padding:12px;
+}
+.footer-link {
+    text-decoration: none;
+    width:180px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 9px;
+   border: 2px solid;
+}
+
+footer{
+    margin-top: 34px;
+    background: #333;
+    color:#f2f2f2;
+    padding:17px;
+   
+}
+.footer-container {
+    margin-top: 23px;
+   display: flex;
+   justify-content: space-around;
+}
+.follow-links {
+padding: 0;
+
+}
+.follow-links li  {
+    display: inline;
+    line-height: 34px;
+    text-decoration: none;
+    margin-right: 9px;
+}
+.follow-links li a { color:orangered;}
